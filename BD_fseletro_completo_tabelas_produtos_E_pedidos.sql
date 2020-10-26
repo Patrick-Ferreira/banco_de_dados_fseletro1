@@ -25,6 +25,7 @@ INSERT INTO `fseletro`.`produtos` (`categoria`, `descricao`, `preco`, `precofina
 INSERT INTO `fseletro`.`produtos` (`categoria`, `descricao`, `preco`, `precofinal`, `imagem`) VALUES ('lava_loucas ', 'Lava-Louças Electrolux com 10 Serviços, 06 programas de Lavagem Painel Blue Touch', '3599.00', '2799.90', 'imagens/lava_louca_eletrolux.jpeg');
 
 
+
 CREATE TABLE `fseletro`.`pedidos` (
   `idpedidos` INT NOT NULL AUTO_INCREMENT,
   ` nome_cliente` VARCHAR(70) NOT NULL,
