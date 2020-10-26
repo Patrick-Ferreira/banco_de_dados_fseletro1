@@ -10,6 +10,7 @@ ALTER TABLE `fseletro`.`produtos`
 ADD COLUMN `imagem` VARCHAR(255) NULL AFTER `precofinal`,
 ADD UNIQUE INDEX `imagem_UNIQUE` (`imagem` ASC) VISIBLE;
 
+
 INSERT INTO `fseletro`.`produtos` (`categoria`, `descricao`, `preco`, `precofinal`, `imagem`) VALUES ('geladeira', 'Geladeira FrostFree Brastemp SideInverse 540 litros', '6889.00', '6389.00', 'imagens/Geladeira_Brastemp.jpeg');
 INSERT INTO `fseletro`.`produtos` (`categoria`, `descricao`, `preco`, `precofinal`, `imagem`) VALUES ('geladeira', 'Geladeira FrostFree Brastemp Branca 375 litros', '2068.60', '1919.00', 'imagens/Refrigerador_brastemp.jpeg');
 INSERT INTO `fseletro`.`produtos` (`categoria`, `descricao`, `preco`, `precofinal`, `imagem`) VALUES ('geladeira', 'Geladeira FrostFree Consul Prata 340 litros', '2199.00', '2069.00', 'imagens/Geladeira_Consul.jpeg');
