@@ -9,6 +9,7 @@ CREATE TABLE `fseletro`.`pedidos` (
   `valor_total` FLOAT NOT NULL,
   PRIMARY KEY (`idpedidos`));
 
+
 INSERT INTO `fseletro`.`pedidos` (` nome_cliente`, `endereco`, `telefone`, `nome_produto`, `valor_unitario`, `quantidade`, `valor_total`) VALUES ('Maria', 'Rua A', '11111111', 'Geladeira FrostFree Brastemp SideInverse 540 litros', '6389.00', '1', '6389.00');
 INSERT INTO `fseletro`.`pedidos` (` nome_cliente`, `endereco`, `telefone`, `nome_produto`, `valor_unitario`, `quantidade`, `valor_total`) VALUES ('Pedro', 'Rua B', '22222222', 'Geladeira FrostFree Brastemp Branca 375 litros', '1919.00', '2', '3838.00');
 INSERT INTO `fseletro`.`pedidos` (` nome_cliente`, `endereco`, `telefone`, `nome_produto`, `valor_unitario`, `quantidade`, `valor_total`) VALUES ('Fabio', 'Rua C', '33333333', 'Microondas Consul 32L Inox 220V', '409.88', '3', '1229.64');
